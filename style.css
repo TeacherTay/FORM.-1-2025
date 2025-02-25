@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --cor-primaria: #FF862A;
+    --cor-secundaria: #CB6D43;
+    --cor-fundo: #FAF4F4;
+    --cor-texto: #333;
+    --cor-texto-contraste: #FFF;
+    --fonte-tamanho-base: 1.2rem;
+    --espacamento-secao: 4rem;
+}
+
+body {
+    font-size: var(--fonte-tamanho-base);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--cor-texto-contraste);
+    padding: 1rem 0;
+}
+
+.nav-link {
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-bottom: var(--espacamento-secao);
+}
+
+.botao-inicio {
+    background-color: var(--cor-primaria);
+    border-radius: 30px;
+    border: none;
+    width: 16em;
+    height: 3.5em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--cor-texto-contraste);
+}
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    color: var(--cor-primaria);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#galeria {
+    background-color: var(--cor-fundo);
+    text-align: center;
+}
+
+.fundo-galeria img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#contato {
+    background-color: var(--cor-texto-contraste);
+    padding: var(--espacamento-secao) 0;
+    text-align: center;
+}
+
+.formulario {
+    background-color: var(--cor-fundo);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+
+.formulario label {
+    font-size: 1.1rem;
+}
+
+.formulario button {
+    background-color: var(--cor-secundaria);
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border-radius: 30px;
+    color: var(--cor-texto-contraste);
+}
+
+.form-control {
+    background-color: #F1EDEF;
+    font-size: 1.1rem;
+}
