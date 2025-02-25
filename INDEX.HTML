@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arte Brasileira</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Arte Brasileira</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#movimentos">Movimentos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="inicio" class="text-center py-5">
+            <h2>Bem-vindo ao mundo da Arte Brasileira</h2>
+            <p>Explore a riqueza dos movimentos artísticos que moldaram nossa cultura.</p>
+        </section>
+
+        <section id="movimentos" class="py-5">
+            <h2 class="text-center">Principais Movimentos Artísticos</h2>
+            <div class="row text-center mt-4">
+                <div class="col-md-4">
+                    <h3>Modernismo</h3>
+                    <p>Movimento que revolucionou a arte brasileira no século XX.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Barroco</h3>
+                    <p>Estilo artístico marcante no período colonial, cheio de detalhes e expressividade.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Arte Contemporânea</h3>
+                    <p>Expressões inovadoras que rompem com as tradições e exploram novas linguagens.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="py-5">
+            <h2 class="text-center">Entre em contato</h2>
+            <div class="container d-flex justify-content-center">
+                <form class="col-md-6">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-3 bg-dark text-white">
+        <p>&copy; 2025 Arte Brasileira - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
